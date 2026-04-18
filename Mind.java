@@ -1,10 +1,10 @@
 public class Mind {
-  public static void main(String[] args){
-      int[]arr={1,2,3};
-      int sum=0;
-      for(int x:arr){
-          sum+=x;
-      }
-      System.out.println(sum);
-  }
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3,4};
+        for (int x : arr) {
+            if (x % 2 == 0) {
+                System.out.println(x);
+            }
+        }
+    }
 }
